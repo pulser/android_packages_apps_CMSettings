@@ -25,8 +25,8 @@
         <PreferenceScreen android:key="changelog"
             android:title="@string/changelog_title">
             <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.cmparts"
-                android:targetClass="com.cyanogenmod.cmparts.activities.ChangeLog" />
+                android:targetPackage="com.cyanogenmod.settings"
+                android:targetClass="com.cyanogenmod.settings.activities.ChangeLog" />
         </PreferenceScreen>
 
     </PreferenceCategory>
