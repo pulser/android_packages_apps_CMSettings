@@ -25,6 +25,7 @@ public class InterfaceList extends MasterLists {
         //mList.put(new MasterLists.List(ResID, ResID, Intent, Type));
         mList = new ArrayList<MasterLists.List>();
         mList.add(new MasterLists.List(R.string.title_expanded_widget, 0, "com.cyanogenmod.settings.activities.PowerWidget", TYPE_SWITCH));
+        mList.add(new MasterLists.List(R.string.permissions_settings_title_head, 0, "com.cyanogenmod.settings.activities.PermissionsActivity", TYPE_SWITCH));
     }
 
     public ArrayList<MasterLists.List> getList() {

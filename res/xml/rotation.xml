@@ -11,11 +11,3 @@
         android:title="@string/pref_rotation_270_title" />
 
 </PreferenceScreen>
-
-<PreferenceScreen android:key="permissions_settings"
-	        android:title="@string/permissions_settings_title_head"
-	        android:summary="@string/permissions_settings_title_subhead">
-	        <intent android:action="android.intent.action.MAIN"
-	            android:targetPackage="com.cyanogenmod.settings"
-	            android:targetClass="com.cyanogenmod.settings.activities.PermissionsActivity" />
-	    </PreferenceScreen>

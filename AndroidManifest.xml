@@ -110,7 +110,7 @@
         </activity>
         <!--- End Rotation -->
 
-<activity android:name=".activities.PermissionsActivity"
+         <activity android:name=".activities.PermissionsActivity"
 	            android:label="@string/permissions_settings_title_head">
 	            <intent-filter>
 	                <action android:name="android.intent.action.MAIN" />
